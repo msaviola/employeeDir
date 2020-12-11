@@ -3,6 +3,7 @@ import EmployeeRow from "./EmployeeRow";
 import NameSortLink from "./NameSortLink";
 import NameFilterInput from "./NameFilterInput";
 import compareNames from "../utils/compareNames";
+
 function EmployeeTable(props) {
     // This becomes "this.state = {}"
     const [filteredEmployees, setFilteredEmployees] = useState(props.employees);
